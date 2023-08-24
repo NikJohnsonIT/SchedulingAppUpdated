@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"/>
+    <item
+        android:id="@+id/notifyStart"
+        android:title="Notify Start"/>
+    <item
+        android:id="@+id/notifyEnd"
+        android:title="Notify End"/>
+    <item
+        android:id="@+id/removeCourse"
+        android:title="Remove Course"/>
+</menu>

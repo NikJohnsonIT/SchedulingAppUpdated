@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/courseListTermId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/courseListCourseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:paddingLeft="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/courseListTermId"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/courseListCourseType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:paddingLeft="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/courseListCourseName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/courseListCourseStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:paddingLeft="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/courseListCourseType"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/courseListCourseEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:paddingLeft="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/courseListCourseStart"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/courseListCourseStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:paddingLeft="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/courseListCourseEnd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
